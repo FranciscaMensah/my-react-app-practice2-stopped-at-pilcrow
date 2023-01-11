@@ -1,0 +1,85 @@
+.editor{
+    padding: 1rem 1rem;
+    margin: 0;
+}
+
+.editor-tools{
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    /* border: 1px solid yellow; */
+}
+
+.tabs{
+    display: flex;
+    align-items: center;
+    margin: 0 1rem 0 0;
+}
+
+.tabs button{
+    margin-right: .4rem;
+    padding: .3rem .8rem;
+}
+
+/* .wrapper-1{
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    padding: .5rem;
+    justify-content: space-between;
+    border: 1px solid red;
+} */
+
+.wrapper-1{
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: .5rem 0;
+    flex-wrap: wrap;
+    /* border: 1px solid blue; */
+}
+
+.divider{
+    width: 1px;
+    height: 25px;
+    margin: auto .5rem;
+    border-right: 1px solid #cacaca;
+}
+
+.btn-nude{
+    border: none;
+    background-color: inherit;
+}
+
+.text-area{
+    width: 90%;
+    min-height: 50vh;
+    border: 1px solid #eeeeee;
+    background-color: white;
+    padding: 1.5rem 1rem;
+    border-radius: 3px;
+    color: #7a7a7a;
+    font-size: 1rem;
+    resize: none;
+}
+
+.text-area:focus{
+    outline: none;
+    color: #363636;
+    font-size: 1rem;
+    /* padding: .7rem; */
+    /* transition: .06s ease-in; */
+}
+
+.btn-tool{
+    background-color: inherit;
+    border: none;
+    padding: .2rem .6rem;
+}
+
+/* .btn-tool:hover{
+    background-color: #e0e0e0;
+    transition:  .5s ease;
+} */

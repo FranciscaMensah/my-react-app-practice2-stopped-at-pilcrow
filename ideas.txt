@@ -1,0 +1,18 @@
+create compopnent for preview.
+create component for write (editor).
+
+pass value of editor (text state) as props
+to the preview component.
+
+pass that prop to the children prop of the 
+Markdown component inside the preview component.
+
+In the editor component, render write if !is preview
+
+In the app component, render 
+
+
+
+In JavaScript, when an object is passed to a function expecting a string (like window.alert() or document.write()), the object's toString() method is called and the returned value is passed to the function. This can make the object appear to be a string when used with other functions when it is really an object with properties and methods.
+
+In the above example, selObj.toString() is automatically called when it is passed to window.alert(). However, attempting to use a JavaScript String property or method such as length or substr directly on a Selection object will result in an error if it does not have that property or method and may return unexpected results if it does. To use a Selection object as a string, call its toString() method directly:

@@ -1,0 +1,10 @@
+.Textarea{
+    display: flex;
+    flex-direction: column;
+    margin-top: .5rem;
+}
+
+.Textarea button {
+    width: fit-content;
+    padding: .2rem .8rem;
+}

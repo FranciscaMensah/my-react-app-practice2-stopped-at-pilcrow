@@ -1,0 +1,7 @@
+react v18.2
+react-dom
+react-icons: npm install -g react-icons
+react-split
+nanoid
+markdown-to-jsx
+react-markdown

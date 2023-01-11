@@ -1,0 +1,31 @@
+.sidebar{
+    padding: 2rem;
+    /* max-width: 300px; */
+
+}
+
+.sidebar-header{
+    display: flex;
+    align-items: center;
+    padding: 1rem 0 2rem 1rem;
+    justify-content: space-between;
+}
+
+.note-banner{
+    color: white;
+    padding: 1rem;
+    font-size: .9rem;
+    line-height: 1.5;
+    border-radius: 3px;
+    /* background-color: #1a163d; */
+    background-color: #1c2a5a;
+}
+
+ul{
+    list-style-type: none;
+    color: #6b6b6b;
+}
+
+li{
+    padding: 1.5rem 0;
+}
